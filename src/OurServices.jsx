@@ -3,7 +3,7 @@ import React from 'react'
 const OurServices = () => {
     return (
         <>
-            <div className='bg-[#F3F3F4] font-josefin flex flex-col items-center  pt-10'>
+            <section id='services' className='bg-[#F3F3F4] font-josefin flex flex-col items-center  pt-10'>
                 <div className='text-4xl w-[500px] text-center pb-10'>
                     Ofrecemos una increible solución para tus problemas
                 </div>
@@ -26,7 +26,7 @@ const OurServices = () => {
                     </div>
                 </div>
 
-            </div>
+            </section>
         </>
     )
 }
