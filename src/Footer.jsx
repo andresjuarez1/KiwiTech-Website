@@ -5,7 +5,7 @@ const Footer = () => {
         <>
             <section id='contact' className='bg-[#6E6E6E] pt-5 font-josefin'>
                 <div className='flex justify-center'>
-                    <img src="./src/assets/kiwi-footer.png" alt="estrella" className='' />
+                    <img src="./src/assets/kiwi-footer.png" alt="estrella" className='h-10' />
                 </div>
                 <div className='flex justify-center pt-6'>
                     <img src="./src/assets/footerText.png" alt="estrella" className='h-5' />
