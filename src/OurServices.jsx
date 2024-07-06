@@ -1,4 +1,9 @@
 import React from 'react'
+import Software from '../src/public/assets/software.png'
+import Pencil from '../src/public/assets/pencil.png'
+import Headset from '../src/public/assets/Headset.png'
+import Star from '../src/public/assets/Star.png'
+
 
 const OurServices = () => {
     return (
@@ -9,19 +14,19 @@ const OurServices = () => {
                 </div>
                 <div className='grid grid-cols-4 gap-40 text-center pt-5'>
                     <div className='flex flex-col justify-center items-center'>
-                        <img src="./src/assets/software.png" alt="software" className='h-10 w-10' />
+                        <img src={Software} alt="software" className='h-10 w-10' />
                         <p className='text-2xl font-regular pt-8'>Software</p>
                     </div>
                     <div className='flex flex-col justify-center items-center'>
-                        <img src="./src/assets/pencil.png" alt="diseño" className='h-10 w-10' />
+                        <img src={Pencil} alt="diseño" className='h-10 w-10' />
                         <p className='text-2xl font-regular pt-8'>Diseño de interfaces </p>
                     </div>
                     <div className='flex flex-col justify-center items-center'>
-                        <img src="./src/assets/Headset.png" alt="consultoria" className='h-10 w-10' />
+                        <img src={Headset} alt="consultoria" className='h-10 w-10' />
                         <p className='text-2xl font-regular pt-8'>Consultorías</p>
                     </div>
                     <div className='flex flex-col justify-center items-center'>
-                        <img src="./src/assets/Star.png" alt="estrella" className='h-10 w-10' />
+                        <img src={Star} alt="estrella" className='h-10 w-10' />
                         <p className='text-2xl font-regular pt-8'>Servicio premium</p>
                     </div>
                 </div>

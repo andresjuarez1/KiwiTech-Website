@@ -1,4 +1,6 @@
 import React from 'react'
+import WicareLogo from '../src/public/assets/wicare-logo.png'
+import App from '../src/public/assets/app.png'
 
 const OurJob = () => {
     return (
@@ -6,7 +8,7 @@ const OurJob = () => {
             <section id='projects' className='bg-[#F3F3F4] pt-32 font-josefin'>
                 <div className=' grid grid-cols-2 pb-16'>
                     <div className='ml-[13%] mt-16'>
-                        <img src="./src/assets/wicare-logo.png" alt="estrella" className='h-[110px]' />
+                        <img src={WicareLogo} alt="estrella" className='h-[110px]' />
                     </div>
                     <div className='flex flex-col items-end mr-[14%]'>
                         <p className='text-6xl mb-4'>NUESTRO TRABAJO</p>
@@ -15,7 +17,7 @@ const OurJob = () => {
                 </div>
 
                 <div>
-                    <img src="./src/assets/app.png" alt="estrella" className='h-auto w-full px-32 py-10' />
+                    <img src={App} alt="app images" className='h-auto w-full px-32 py-10' />
                 </div>
             </section>
         </>

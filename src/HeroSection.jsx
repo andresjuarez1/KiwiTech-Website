@@ -1,4 +1,5 @@
 import React from 'react'
+import Hero from '../src/public/assets/hero-image.png'
 
 const HeroSection = () => {
     return (
@@ -9,11 +10,10 @@ const HeroSection = () => {
                     <p className='text-8xl py-2 text-[#64AA6D] font-medium tracking-[0.3em]'>IDEAS</p>
                     <p className='text-4xl font-light py-5 tracking-[0.3em]'>EN TECNOLOGÍA</p>
                 </div>
-                <div>
-                    <img src="../src/assets/hero-image.png" alt="hero image" className='h-[500px] w-[580px] mt-24 ml-[160px]' />
+                <div> 
+                    <img src={Hero} alt="hero image" className='h-[500px] w-[580px] mt-24 ml-[160px]' /> 
                 </div>
-            </div> 
-
+            </div>
 
             <div className='bg-[#F3F3F4] grid grid-cols-2 pb-20 pt-10 font-josefin '>
                 <div className='w-[620px] ml-[13%]'>

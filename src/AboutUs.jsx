@@ -1,4 +1,6 @@
 import React from 'react'
+import Who from '../src/public/assets/who.png'
+
 
 const AboutUs = () => {
     return (
@@ -9,7 +11,7 @@ const AboutUs = () => {
                     <p className='text-2xl font-light mt-6 w-[70%]'>“KiwiTech” es una empresa chiapaneca fundada en el año 2024 para la realización de proyectos de software </p>
                 </div>
                 <div className='ml-[35%]'>
-                    <img src="./src/assets/who.png" alt="estrella" className='h-[300px]' />
+                    <img src={Who} alt="estrella" className='h-[300px]' />
                 </div>
             </div>
         </>
