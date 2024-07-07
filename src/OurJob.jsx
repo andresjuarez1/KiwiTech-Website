@@ -5,14 +5,14 @@ import App from '../src/public/assets/app.png';
 const OurJob = () => {
     return (
         <>
-            <section id='projects' className='bg-[#F3F3F4] pt-32 font-josefin'>
-                <div className='grid grid-cols-1 md:grid-cols-2 gap-8 px-6 md:px-20 lg:px-32'>
-                    <div className='flex items-center'>
+            <section id='projects' className='bg-[#F3F3F4] pt-10 sm:pt-16 lg:pt-32 font-josefin'> 
+                <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 px-6 md:px-20 lg:px-32'>
+                    <div className='hidden lg:flex lg:items-center'>
                         <img src={WicareLogo} alt="estrella" className='h-[110px] ml-[13%] md:ml-0 md:mt-16' />
                     </div>
-                    <div className='flex flex-col items-center md:items-end mt-8 md:mt-0'>
-                        <p className='text-4xl mb-4 text-center md:text-6xl md:text-right'>NUESTRO TRABAJO</p>
-                        <p className='text-lg font-light mt-6 text-center md:text-2xl md:text-end md:w-[full]'>WiCare “Conectando para cambiar vidas” Es una aplicación móvil para motivar a las personas a ayudar a las asociaciones a cumplir sus objetivos y poder realizar eventos para la ayuda social.</p>
+                    <div className='flex flex-col items-center lg:items-end mt-8 md:mt-0'>
+                        <p className='text-4xl mb-4 text-center md:text-5xl lg:text-6xl md:text-right'>NUESTRO TRABAJO</p>
+                        <p className='text-lg font-light mt-6 text-center sm:text-xl md:text-2xl lg:text-2xl lg:text-end md:w-[full]'>WiCare “Conectando para cambiar vidas” Es una aplicación móvil para motivar a las personas a ayudar a las asociaciones a cumplir sus objetivos y poder realizar eventos para la ayuda social.</p>
                     </div>
                 </div>
 
